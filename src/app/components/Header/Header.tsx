@@ -18,7 +18,7 @@ const Header: FC<HeaderProps> = () => {
         <ul>
           <li>
             <NavLink
-              to='/ads'
+              to='/'
               className={({ isActive }) =>
                 `${isActive ? styles.active : styles.link}`
               }
