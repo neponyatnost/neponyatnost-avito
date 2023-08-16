@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/neponyatnost-avito/static/css/main.39ba1d52.css",
-    "main.js": "/neponyatnost-avito/static/js/main.572c4f98.js",
+    "main.js": "/neponyatnost-avito/static/js/main.6e891332.js",
     "static/media/logo.png": "/neponyatnost-avito/static/media/logo.38b259fb058f596de698.png",
     "index.html": "/neponyatnost-avito/index.html",
     "main.39ba1d52.css.map": "/neponyatnost-avito/static/css/main.39ba1d52.css.map",
-    "main.572c4f98.js.map": "/neponyatnost-avito/static/js/main.572c4f98.js.map"
+    "main.6e891332.js.map": "/neponyatnost-avito/static/js/main.6e891332.js.map"
   },
   "entrypoints": [
     "static/css/main.39ba1d52.css",
-    "static/js/main.572c4f98.js"
+    "static/js/main.6e891332.js"
   ]
 }
