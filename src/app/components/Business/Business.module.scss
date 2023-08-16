@@ -1,0 +1,10 @@
+@import '../../../mixins.scss';
+
+.business {
+  width: clamp(100px, 50%, 1000px);
+  height: 200px;
+  background-color: #333;
+}
+
+.heading {
+}

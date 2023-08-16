@@ -1,0 +1,48 @@
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80rem;
+  gap: 1rem;
+  width: 100%;
+  min-height: 50px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+}
+
+.mainLink {
+  img {
+    width: 110px;
+    height: 38px;
+  }
+}
+
+.modal {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 8px #4c9aff;
+  border-radius: 5px;
+  overflow: hidden;
+  top: 115%;
+  right: 0;
+  left: 50%;
+  padding: 1rem;
+  padding-top: 0;
+  z-index: 9;
+
+  ul {
+    li {
+      border-bottom: 1px solid #4c9aff;
+      padding: 1rem;
+
+      &:last-child {
+        border: none;
+        padding-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+@import 'mixins.scss';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+
+body {
+  overflow-y: scroll;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem 0 2rem;
+  margin-top: 50px;
+  min-height: calc(100vh - 70px);
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  color: #000;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+
+  &:hover {
+    color: rgba(0, 0, 255, 0.397);
+  }
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* Firefox < 19 */
+input:-moz-placeholder {
+  color: #999;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+/* Firefox > 19 */
+input::-moz-placeholder {
+  color: #999;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+  color: #999;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.thumbs-wrapper {
+  margin: 0 !important;
+  margin-top: 0.5rem !important;
+}
+
+.thumb {
+  border: none !important;
+  height: 95px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.thumb.selected {
+  border: 2px solid #4c9aff !important;
+}
+
+.carousel .thumb {
+  margin-right: 0 !important;
+  padding: 0;
+}
+
+.slide {
+  img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+}
+
+.carousel.carousel-slider {
+  max-height: 400px !important;
+  height: 400px !important;
+  display: flex;
+  background-color: #fff;
+}
+
+.thumbs {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.carousel-root {
+  width: 300px !important;
+}
+
+.dot.selected {
+  box-shadow: 0 0 12px #4c9aff !important;
+  background-color: #4c9aff !important;
+}
